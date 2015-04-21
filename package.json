@@ -1,0 +1,26 @@
+{
+  "name": "typographic-bank-card",
+  "description": "Micro module for bank-card format",
+  "version": "0.1.0",
+  "keywords": [
+    "typographic",
+    "format",
+    "card",
+    "credit-card",
+    "bank-card",
+    "textr"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/beshkenadze/typographic-bank-card.git"
+  },
+  "dependencies": {
+    "credit-card-regex": "^1.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  },
+  "main": "index.js",
+  "author": "Aleksandr Beshkenadze <beshkenadze@gmail.com>",
+  "license": "MIT"
+}
