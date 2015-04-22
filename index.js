@@ -6,13 +6,17 @@
  */
 var CC_PATTERN = require('credit-card-regex');
 
-module.exports = function (input) {
+var NON_BREAKING_SPACE = 160;
+
+module.exports = function (input, inputOptions) {
+    var defaultOptions = {"separator": String.fromCharCode(NON_BREAKING_SPACE)},
+        options = inputOptions || defaultOptions;
     var format = function (input) {
         var output = "";
 
         for (var i = 0; i < input.length; i++) {
             if (i % 4 == 0 && i > 0) {
-                output += " ";
+                output += options.separator;
             }
             output += input[i];
         }
