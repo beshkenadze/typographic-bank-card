@@ -18,4 +18,8 @@ describe('tbc(input, {"separator": " "})', function () {
     it('format card number with custom space separator', function () {
         assert(tbc("5441168611005540", {"separator": "-"}) === '5441-1686-1100-5540');
     });
+
+    it('check for wrong data.', function () {
+        assert(tbc("180951100392") === '180951100392');
+    });
 });
