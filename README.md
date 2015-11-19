@@ -31,5 +31,5 @@ tbc("Credit card: 5441168611005540")
   
 [npm-image]: https://img.shields.io/npm/v/typographic-bank-card.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/typographic-bank-card
-[travis-image]: https://travis-ci.org/beshkenadze/typographic-bank-card.svg?style=flat-square&branch=0.1.0
+[travis-image]: https://travis-ci.org/beshkenadze/typographic-bank-card.svg?branch=master
 [travis-url]: https://travis-ci.org/beshkenadze/typographic-bank-card
