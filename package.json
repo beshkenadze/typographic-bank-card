@@ -1,7 +1,7 @@
 {
   "name": "typographic-bank-card",
   "description": "Micro module for bank-card format",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "keywords": [
     "typographic",
     "format",
