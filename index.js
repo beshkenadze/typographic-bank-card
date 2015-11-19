@@ -25,6 +25,9 @@ module.exports = function (input, inputOptions) {
     };
     var formatCards = function (inputString) {
         var cards = inputString.match(CC_PATTERN(inputString));
+        if (cards === null) {
+            return inputString;
+        }
         for (var i = 0; i < cards.length; i++) {
             var card = cards[i].trim()
                 , formattedCard = format(card);
