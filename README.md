@@ -1,6 +1,6 @@
 # typographic-bank-card
 
-  Micro module for bank-card format
+  A micro module for a bank-card format
 
 ## Status
 
@@ -16,7 +16,7 @@ $ npm install typographic-bank-card
 ## Use
 
 ```js
-var tbc = require('typographic-bank-card')
+const tbc = require('typographic-bank-card')
 
 tbc("5441168611005540")
 // 5441 1686 1100 55401
